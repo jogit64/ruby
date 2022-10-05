@@ -1,14 +1,47 @@
 .header {
-    background: $colour-primary;
-    height: 10rem;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;   
-    &__logo {
-        font-size: 7rem;
-        color: $colour-secondary;
-        margin-left: 10rem;
-        @include heading-shadow($colour-white);
+  background: $colour-primary;
+  @include flex-center;
+
+  &__logo {
+    @include flex-center;
+  }
+
+  &__logo--feat {
+    @include heading-shadow;
+    font-size: 3.2rem;
+    //color: $colour-secondary;
+  }
+
+  &__img {
+    @include flex-center;
+  }
+
+  &__img--feat {
+    max-width: 25%;
+  }
+}
+
+// ! //////////////////////////////////////
+.nav {
+  @include flex-center;
+
+  &__link {
+    display: inline;
+    font-size: 2.5rem;
+    padding-left: 3rem;
+    & a {
+      text-decoration: none;
+      color: $colour-accent;
     }
+    &--active {
+      color: $colour-secondary;
+      &:hover {
+        cursor: default;
+        color: $colour-secondary;
+      }
+    }
+    & a:hover {
+      color: $colour-secondary;
+    }
+  }
 }
