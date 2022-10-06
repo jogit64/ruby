@@ -1,1 +1,168 @@
-*,*::after,*::before{margin:0;padding:0;box-sizing:inherit}html{font-size:62.5%}body{box-sizing:border-box;background:#fff}@font-face{font-family:"SweetSansProRegular";src:url("/public/fonts/SweetSansProRegular.woff")}body{font-family:"SweetSansProRegular","Roboto",sans-serif;color:#9784b9;font-size:2rem;font-weight:100;line-height:1.7}h1{font-weight:900;font-size:5rem;font-style:italic}textarea{font-weight:100;font-size:2rem}button{font-weight:900;font-style:italic;font-size:2.75rem}.btn{padding:.25rem;border:.1rem solid #9784b9;color:#9784b9;background:#fff;cursor:pointer}.btn:hover{background:#9784b9;color:#295e51}.btn--full-width{width:100%;margin:0 auto}.header{background:#9784b9;display:flex;flex:auto;justify-content:center;align-items:center;height:10rem;padding:1rem}.header__logo{display:flex;flex:auto;justify-content:center;align-items:center;height:10rem;padding:1rem}.header__logo--feat{text-shadow:.25rem .25rem #7c63a7;font-size:3.2rem}.header__img{display:flex;flex:auto;justify-content:center;align-items:center;height:10rem;padding:1rem}.header__img--feat{max-width:25%}.nav{display:flex;flex:auto;justify-content:center;align-items:center;height:10rem;padding:1rem}.nav__link{display:inline;font-size:2.5rem;padding-left:3rem}.nav__link a{text-decoration:none;color:#295e51}.nav__link--active{color:#fff}.nav__link--active:hover{cursor:default;color:#fff}.nav__link a:hover{color:#fff}.container{margin:1rem;padding:.25rem .25rem 0 .25rem;border:.1rem solid #295e51}.form{width:100%;padding-bottom:.25rem}.form__heading{width:100%;color:#fff;text-shadow:.25rem .25rem #7c63a7;background:#9784b9;line-height:5rem;padding:.25rem}.form__field label{color:#295e51;display:block;font-size:2rem;line-height:2rem;padding-top:.25rem}.form__field input{width:100%;background:#fff;border:.1rem solid #9784b9;padding:.25rem;color:#295e51;font-weight:900;font-style:italic;font-size:2.75rem;border:.1rem solid #9784b9;background-color:#fff;color:#9784b9}.form__field textarea{width:100%;color:#9784b9;background:#fff;border:.1rem solid #9784b9;outline:none;padding:.25rem;margin-bottom:.125rem}/*# sourceMappingURL=style.css.map */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background: #fff;
+}
+
+@font-face {
+  font-family: "SweetSansProRegular";
+  src: url("/public/fonts/SweetSansProRegular.woff");
+}
+body {
+  font-family: "SweetSansProRegular", "Roboto", sans-serif;
+  color: #6f6282;
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 1.7;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 5rem;
+  font-style: italic;
+}
+
+textarea {
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+button {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.75rem;
+}
+
+.btn {
+  padding: 0.25rem;
+  border: 0.1rem solid #6f6282;
+  color: #6f6282;
+  background: #ffffff;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #6f6282;
+  color: #acb6b3;
+}
+.btn--full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  background: #6f6282;
+  display: flex;
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+.header__logo--feat {
+  text-shadow: 0.55rem 0.55rem #564c65;
+  font-size: 3.2rem;
+  color: #ffffff;
+  margin: 2rem;
+}
+.header__img {
+  display: flex;
+  flex: auto;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10rem;
+  padding: 1rem;
+}
+.header__img--feat {
+  margin-top: 6rem;
+}
+
+.nav__link {
+  display: inline;
+  font-size: 2.5rem;
+  padding-left: 3rem;
+}
+.nav__link a {
+  text-decoration: none;
+  color: #acb6b3;
+}
+.nav__link--active {
+  color: #ffffff;
+}
+.nav__link--active:hover {
+  cursor: default;
+  color: #ffffff;
+}
+.nav__link a:hover {
+  color: #ffffff;
+}
+
+.jeu-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.container {
+  margin: 1rem;
+  padding: 0.25rem 0.25rem 0 0.25rem;
+  border: 0.1rem solid #acb6b3;
+}
+
+.form {
+  width: 100%;
+  padding-bottom: 0.25rem;
+}
+.form__heading {
+  width: 100%;
+  color: #fff;
+  text-shadow: 0.55rem 0.55rem #564c65;
+  background: #6f6282;
+  line-height: 5rem;
+  padding: 0.25rem;
+}
+.form__field label {
+  color: #acb6b3;
+  display: block;
+  font-size: 2rem;
+  line-height: 2rem;
+  padding-top: 0.25rem;
+}
+.form__field input {
+  width: 100%;
+  background: #ffffff;
+  border: 0.1rem solid #6f6282;
+  padding: 0.25rem;
+  color: #acb6b3;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.75rem;
+  border: 0.1rem solid #6f6282;
+  background-color: #ffffff;
+  color: #6f6282;
+}
+.form__field textarea {
+  width: 100%;
+  color: #6f6282;
+  background: #ffffff;
+  border: 0.1rem solid #6f6282;
+  outline: none;
+  padding: 0.25rem;
+  margin-bottom: 0.125rem;
+}
+
+.section-intro {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

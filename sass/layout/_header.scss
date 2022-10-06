@@ -1,29 +1,38 @@
 .header {
   background: $colour-primary;
-  @include flex-center;
+  @include flex-place($center);
+  margin-bottom: 5rem;
 
   &__logo {
-    @include flex-center;
+    //  @include flex-center (center);
+    //background-color: aqua;
+    //margin: 3rem;
   }
 
   &__logo--feat {
     @include heading-shadow;
     font-size: 3.2rem;
-    //color: $colour-secondary;
+    color: $colour-secondary;
+    // background-color: yellow;
+    margin: 2rem;
   }
 
   &__img {
-    @include flex-center;
+    @include flex-place($start);
+    //background-color: green;
   }
 
   &__img--feat {
-    max-width: 25%;
+    margin-top: 6rem;
+    //background-color: yellow;
+    //max-width: 25%;
+    // @include heading-shadow;
   }
 }
 
 // ! //////////////////////////////////////
 .nav {
-  @include flex-center;
+  // @include flex-center;
 
   &__link {
     display: inline;

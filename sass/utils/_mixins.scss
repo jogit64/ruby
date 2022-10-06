@@ -5,10 +5,10 @@
 // !
 // !
 
-@mixin flex-center {
+@mixin flex-place ($place){
   display: flex;
   flex: auto;
-  justify-content: center;
+  justify-content: $place;
   align-items: center;
   height: 10rem;
   padding: 1rem;

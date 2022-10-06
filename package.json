@@ -1,17 +1,17 @@
 {
-  "name": "writing-sass",
+  "name": "ruby-game",
   "version": "1.0.0",
-  "description": "Joe Blow's portfolio",
+  "description": "Mais où est passée Ruby ?",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style compressed",
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css ",
     "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gerkx/maintainable-css-with-sass.git"
   },
-  "author": "gerkx",
+  "author": "jogit64",
   "license": "ISC",
   "browserslist": "last 4 versions",
   "bugs": {
