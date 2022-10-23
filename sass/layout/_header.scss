@@ -1,56 +1,20 @@
 .header {
-  background: $colour-primary;
   @include flex-place($center);
+  background: $colour-primary;
   margin-bottom: 5rem;
 
-  &__logo {
-    //  @include flex-center (center);
-    //background-color: aqua;
-    //margin: 3rem;
-  }
-
-  &__logo--feat {
+  &__baseline {
     @include heading-shadow;
     font-size: 3.2rem;
-    color: $colour-secondary;
-    // background-color: yellow;
+    color: $colour-accent;
     margin: 2rem;
   }
 
   &__img {
     @include flex-place($start);
-    //background-color: green;
   }
 
   &__img--feat {
     margin-top: 6rem;
-    //background-color: yellow;
-    //max-width: 25%;
-    // @include heading-shadow;
-  }
-}
-
-// ! //////////////////////////////////////
-.nav {
-  // @include flex-center;
-
-  &__link {
-    display: inline;
-    font-size: 2.5rem;
-    padding-left: 3rem;
-    & a {
-      text-decoration: none;
-      color: $colour-accent;
-    }
-    &--active {
-      color: $colour-secondary;
-      &:hover {
-        cursor: default;
-        color: $colour-secondary;
-      }
-    }
-    & a:hover {
-      color: $colour-secondary;
-    }
   }
 }

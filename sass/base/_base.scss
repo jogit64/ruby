@@ -6,12 +6,20 @@
   box-sizing: inherit;
 }
 
-html {
+html,
+body {
   // 10px div by def of 16px
   font-size: 62.5%;
+  height: 100%;
 }
 
 body {
   box-sizing: border-box;
-  background: $colour-white;
+  display: flex;
+  flex-direction: column;
+  background: $colour-secondary;
+}
+
+.contain {
+  height: 100%;
 }

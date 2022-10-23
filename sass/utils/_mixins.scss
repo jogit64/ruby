@@ -5,14 +5,13 @@
 // !
 // !
 
-@mixin flex-place ($place){
+@mixin flex-place($place) {
   display: flex;
   flex: auto;
   justify-content: $place;
   align-items: center;
   height: 10rem;
-  padding: 1rem;
-  //border: 2px solid;
+  //padding: 1rem;
 }
 
 @mixin heading-shadow(
@@ -20,6 +19,11 @@
   $offset: $heading-shadow-size
 ) {
   text-shadow: $offset $offset $colour;
+}
+
+@mixin images {
+  // padding: 2rem;
+  // margin: 1rem;
 }
 
 // !
